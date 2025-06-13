@@ -1,0 +1,28 @@
+file format
+
+text file   .txt
+
+word file   .docs
+
+powerpoint  .ppt
+
+html         .html
+
+
+
+image format
+
+png format
+
+jpg format
+
+jpeg format
+
+gif format
+
+webp format
+
+base64 format
+
+
+
