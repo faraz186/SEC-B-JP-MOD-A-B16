@@ -1,0 +1,83 @@
+/* Universal Selector */
+
+/* * {
+  background-color: lightcoral;
+  color: black;
+} */
+
+/* type Selector */
+
+/* h1 {
+  color: white;
+  background-color: black;
+}
+
+
+h2 {
+  color: red;
+  background-color: black;
+}
+p {
+  color: aqua;
+  background-color: black;
+} */
+
+/* h1,
+h2,
+h3,
+p {
+  color: green;
+} */
+
+/* in css class is denote in . 
+
+and id is denote in #
+*/
+
+/* ID Selector */
+
+/* #para1,
+#para3,
+#para4 {
+  color: white;
+  background-color: black;
+}
+
+#para2 {
+  color: red;
+  background-color: black;
+} */
+
+/* Class Selector */
+
+/* .para1,
+.para3,
+.para4 {
+  color: white;
+  background-color: black;
+}
+
+.para2 {
+  color: red;
+  background-color: black;
+} */
+
+/* Child Selector */
+
+/* div > h1,
+div > a {
+  color: green;
+} */
+
+/* DeScendant Selector */
+
+div h1 {
+  color: red;
+}
+
+/* adjacent SIBLIng SeLector */
+
+/* h1 ~ p {
+  background-color: lightgrey;
+  color: black;
+} */
