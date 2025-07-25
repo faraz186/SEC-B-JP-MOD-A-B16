@@ -1,0 +1,124 @@
+/* @font-face {
+    font-family: "Faraz";
+    src: url(./BitcountPropSingle_Roman-Bold.ttf);
+}
+
+p{
+    font-family: "Faraz";
+} */
+
+/* 
+a:link{
+    color: red;
+    background-color: bisque;
+}
+
+a:visited{
+    color: green;
+} */
+
+
+/* a:hover{
+    background-color: red;
+    color: white;
+}
+
+
+button{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    padding: 10px;
+}
+
+ 
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+
+}
+
+input:focus{
+    outline: 30px;
+    background-color: blue;
+    color: white;
+} */
+
+/* .container{
+    background-color: beige;
+    width: 20%;
+    height: 600px;
+} */
+/* 
+
+
+.container{
+    border: 5px solid red;
+    width: 300px;
+    height: 100%;
+} */
+
+/* img{
+    width: 100%;
+} */
+
+/* div{
+   border: 10px groove green;
+   border-top: 10px solid blue;
+   border-bottom: 10px solid red;
+   border-right: 10px solid orange;
+
+
+    min-width: 250px;
+    max-width: 700px;
+    min-height: 200px;
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+} */
+
+
+/* .box{
+    border: 3px solid red;
+} */
+
+/* .box h1{
+    border: 3px solid blue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box p{
+    border: 3px solid green;
+    padding: 20px;
+    margin: 10px;
+} */
+
+p{
+    margin: 50px 100px 60px 70px;
+
+    /* margin-top: ;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ; */
+
+
+    /* padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    box-shadow: 10px 15px 20px green;
+    border: 3px solid green;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    padding: 5px;
+
+}
