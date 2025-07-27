@@ -5,26 +5,26 @@
 
 h1 {
 
-    /* 
-    text-shadow: FirstVal(Left-Right) SecondVal(Top-Bottom)
-     ThirdVal(Amount of Blur) Fourth(Shadow Color) ;
-    */
-    /* text-decoration: blink; */
+    
+/*     text-shadow: FirstVal(Left-Right) SecondVal(Top-Bottom)
+     ThirdVal(Amount of Blur) Fourth(Shadow Color) ; */
+   
+    text-decoration: blink;
     text-shadow: 0px 0px 5px red;
 
-    /* letter-spacing: 30px; */
-    /* font-size: 200%;
-    font-family: "Umar"; */
+    letter-spacing: 30px;
+    font-size: 200%;
+    font-family: "Umar";
 }
 
 
 p {
     /* font-family: "Bitcount Prop Double", system-ui; */
     font-optical-sizing: auto;
-    /* text-indent: 70px; */
-    /* text-align: justify; */
-    /* line-height: 50px; */
-    /* word-spacing: 50px; */
+    text-indent: 70px;
+    text-align: justify;
+    line-height: 50px;
+    word-spacing: 50px;
     text-transform: capitalize;
     font-weight: 100;
     font-style: inherit;
@@ -41,7 +41,6 @@ p::first-line {
     font-size: 32px;
 }
 
-
-/* .spanClass::first-letter {
+.spanClass::first-letter {
     font-size: 200px;
-} */
+}
