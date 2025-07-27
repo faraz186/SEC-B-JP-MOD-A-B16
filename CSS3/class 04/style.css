@@ -1,13 +1,13 @@
-/* @font-face {
+@font-face {
     font-family: "Faraz";
     src: url(./BitcountPropSingle_Roman-Bold.ttf);
 }
 
 p{
     font-family: "Faraz";
-} */
+}
 
-/* 
+
 a:link{
     color: red;
     background-color: bisque;
@@ -15,10 +15,10 @@ a:link{
 
 a:visited{
     color: green;
-} */
+}
 
 
-/* a:hover{
+a:hover{
     background-color: red;
     color: white;
 }
@@ -47,27 +47,27 @@ input:focus{
     outline: 30px;
     background-color: blue;
     color: white;
-} */
+}
 
-/* .container{
+.container{
     background-color: beige;
     width: 20%;
     height: 600px;
-} */
-/* 
+}
+
 
 
 .container{
     border: 5px solid red;
     width: 300px;
     height: 100%;
-} */
+}
 
-/* img{
+img{
     width: 100%;
-} */
+}
 
-/* div{
+div{
    border: 10px groove green;
    border-top: 10px solid blue;
    border-bottom: 10px solid red;
@@ -81,14 +81,14 @@ input:focus{
     overflow: scroll;
     overflow-x: hidden;
     
-} */
+}
 
 
-/* .box{
+.box{
     border: 3px solid red;
-} */
+}
 
-/* .box h1{
+.box h1{
     border: 3px solid blue;
     padding: 20px;
     margin: 10px;
@@ -98,7 +98,7 @@ input:focus{
     border: 3px solid green;
     padding: 20px;
     margin: 10px;
-} */
+}
 
 p{
     margin: 50px 100px 60px 70px;
@@ -113,12 +113,14 @@ p{
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px; */
+    
     box-shadow: 10px 15px 20px green;
     border: 3px solid green;
+    
     /* border-radius: 15px; */
+    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
     padding: 5px;
 
 }
