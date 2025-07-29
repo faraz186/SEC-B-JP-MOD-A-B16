@@ -1,0 +1,103 @@
+/* div{
+    text-align: center;
+    border: 5px solid red;
+    padding: 5px;
+    width: 200px;
+     margin: auto;
+
+     
+} */
+
+/* img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+
+/* ul{
+    background-color: orange;
+}
+
+li{
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    
+}
+
+a{
+    background-color: lightseagreen;
+    visibility:visible;
+    text-align: center;
+} */
+
+    /* use to move any inline element to the center of screen */
+
+    /* margin-left: 200px; */
+    
+    /* use to move div or container to the center of screen */
+    
+    /* margin: auto; */
+
+
+/* h1{
+    text-align: right;
+}  */
+
+/* p{
+   
+    border-image: url(https://t4.ftcdn.net/jpg/06/31/94/07/360_F_631940703_olFOPib8TNgTO9vXF108GKci7daMsTld.jpg);
+} */
+
+/* ol{ */
+    /* list-style-type: decimal; */
+
+    /* list-style-image: url(https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg?semt=ais_hybrid&w=740&q=80); */
+    /* margin-left: 900px; */
+    /* list-style-position: inside; */
+   
+/* }
+
+li{
+    margin-top: -100px;
+}
+
+/* table{
+    border: 1px solid black;
+    background-color: rgb(193, 254, 193);
+    border-spacing: 3px;
+    empty-cells: hide;
+    border-collapse: collapse;
+} */
+
+tr,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: rgb(118, 202, 118);
+}
+
+.email{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZP3U5kAfd8dDlQErEPSRSiZqEv3T0H51KNg&s);
+background-size: 17px;
+background-repeat: no-repeat;
+text-indent: 20px;
+
+}
+
+.password{
+    background-image: url(https://media.istockphoto.com/id/936681148/vector/lock-icon.jpg?s=612x612&w=0&k=20&c=_0AmWrBagdcee-KDhBUfLawC7Gh8CNPLWls73lKaNVA=);
+background-size: 17px;
+background-repeat: no-repeat;
+text-indent: 20px;
+}
+
+input:focus{
+    outline: none;
+
+}
