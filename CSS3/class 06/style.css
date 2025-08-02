@@ -6,7 +6,7 @@ h1 {
   color: red;
 }
 
-* {
+* { 
   margin: 0px;
   padding: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -154,4 +154,5 @@ img {
 p {
   clear: both;
 }
+
 
