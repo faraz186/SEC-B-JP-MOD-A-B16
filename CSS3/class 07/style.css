@@ -1,0 +1,56 @@
+/* .box {
+  border: 2px solid black;
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 0, 0, 0.3) 40%,
+      rgba(248, 240, 22, 0.3) 60%
+    ),
+    url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg);
+
+  background-size: 100%;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  background-attachment: fixed;
+} */
+
+/* linearGradient */
+
+/* radialGradient */
+
+body {
+  background-color: lightsalmon;
+  font-family: monospace;
+}
+
+img {
+  width: 800px;
+}
+
+/* tablet screen */
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lawngreen;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  img {
+    width: 400px;
+  }
+}
+
+/* mobile screen */
+
+@media only screen and 
+(max-width: 480px) {
+  body {
+    background-color: lightseagreen;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  img {
+    width: 160px;
+  }
+}
