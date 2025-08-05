@@ -1,5 +1,5 @@
 .box {
-  border: 2px solid black;        
+  border: 2px solid black;         
   background-image: radial-gradient(
       circle,
       rgba(255, 0, 0, 0.3) 40%,
@@ -54,6 +54,7 @@ img {
     width: 160px;
   }
 }
+
 
 
 
