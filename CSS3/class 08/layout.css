@@ -1,0 +1,49 @@
+/*.container {
+  display: flex;
+  gap: ; 
+  padding: 80px 0px;
+  width: 100%; position: absolute;
+  top: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+ .cont1 {
+  width: 450px;
+}
+.cont2 {
+  width: 450px;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.card {
+  width: 18.5rem;
+  background-color: lightcyan;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.cardContent {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  /* background-color: cadetblue; */
+  border: 2px solid rgb(69, 129, 166);
+  border-radius: 30px;
+  color: rgb(69, 129, 166);
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(69, 129, 166);
+  color: white;
+  transition: 0.5s;
+}

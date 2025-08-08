@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+
+  background-color: cyan;
+
+  /* align-items: stretch; */
+
+  align-content: flex-start;
+
+  /* row-gap: 50px;
+  column-gap: 100px; */
+
+  gap: 10px;
+
+  /* flex-wrap: wrap; */
+  /* flex-direction: row-reverse; */
+
+  /* flex-flow: row-reverse wrap-reverse; */
+
+  /* flex-direction: column-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+}
+
+.div1 {
+  background-color: red;
+  padding: 10px;
+  /* width: 400px; */
+  flex-basis: 400px;
+  height: 100px;
+  font-size: 24px;
+  flex-shrink: 0;
+  /* flex-grow: 1; */
+  /* order: 3; */
+}
+
+.div2 {
+  align-self: flex-end;
+  background-color: green;
+  padding: 10px;
+  height: 200px;
+  width: 400px;
+  /* flex-grow: 3; */
+  /* order: 2; */
+  font-size: 24px;
+}
+
+.div3 {
+  background-color: orange;
+  padding: 10px;
+  /* flex-grow: 1; */
+  width: 400px;
+  height: 50px;
+  /* order: 4; */
+  font-size: 24px;
+}
+
+.div4 {
+  background-color: blue;
+  padding: 10px;
+  /* height: 300px; */
+  /* order: 1; */
+  width: 200px;
+  font-size: 24px;
+}
