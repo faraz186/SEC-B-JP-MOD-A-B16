@@ -22,20 +22,20 @@ alert(h)
 // var c = a+b
 // alert(c);
 
-// var x = "7"
-// var y = 6;
-// var z = x+y;
-// alert(z);
+var x = "7"
+var y = 6;
+var z = x+y;
+alert(z);
 
-// var f = "6";
-// var g = 3;
-// var h = f/g
-// alert(h)
+var f = "6";
+var g = 3;
+var h = f/g
+alert(h)
 
-// var a = "ali";
-// var b = 5;
-// var c = a*b;
-// alert(c)
+var a = "ali";
+var b = 5;
+var c = a*b;
+alert(c)
 
 // var a;
 // a=5;
@@ -70,5 +70,6 @@ var a = 2;
 var b = a - ++a + --a + a-- - a + a++ - a-- + a - a++;
         2 - 3 + 2 + 2 - 1 + 1 - 2 + 1 - 1
 alert(b)
+
 
 
