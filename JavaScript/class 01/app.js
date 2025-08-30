@@ -7,15 +7,15 @@ console.log("Hello World")
 // var c = a+b;
 // alert(c)
 
-// var x = 3;
-// var y = 2;
-// var z = x*y;
-// alert(z)
+var x = 3;
+var y = 2;
+var z = x*y;
+alert(z)
 
-// var f = "ali";
-// var g = 5;
-// var h = f+g;
-// alert(h)
+var f = "ali";
+var g = 5;
+var h = f+g;
+alert(h)
 
 // var a = "ali";
 // var b = "mughal"
@@ -70,4 +70,5 @@ var a = 2;
 var b = a - ++a + --a + a-- - a + a++ - a-- + a - a++;
         2 - 3 + 2 + 2 - 1 + 1 - 2 + 1 - 1
 alert(b)
+
 
