@@ -37,20 +37,20 @@ var b = 5;
 var c = a*b;
 alert(c)
 
-// var a;
-// a=5;
-// alert(a)
+var a;
+a=5;
+alert(a)
 
-// var b = "Ahmed";
-// var b = "Hamza";
-// alert(b);
+var b = "Ahmed";
+var b = "Hamza";
+alert(b);
 
-// var a = 10;
-// var b = a%3;
-// alert(b)
+var a = 10;
+var b = a%3;
+alert(b)
 
-// var x = (8+4)/2-5*(3+6)
-// alert(x)
+var x = (8+4)/2-5*(3+6)
+alert(x)
 
 // Post Increment: x++ , x=x+1
 // Pre Increment : ++x
@@ -59,10 +59,10 @@ alert(c)
 // Pre Decrement : --x
 
 
-// var x = 3;
-// var y = x++ + x + ++x + x++ + x + ++x + x++ + x;
-//         // 3 + 4 + 5 + 5 + 6 + 7 + 7 + 8
-// alert(y)
+var x = 3;
+var y = x++ + x + ++x + x++ + x + ++x + x++ + x;
+//      3 + 4 + 5 + 5 + 6 + 7 + 7 + 8
+alert(y)
 
 
 
@@ -70,6 +70,7 @@ var a = 2;
 var b = a - ++a + --a + a-- - a + a++ - a-- + a - a++;
         2 - 3 + 2 + 2 - 1 + 1 - 2 + 1 - 1
 alert(b)
+
 
 
 
