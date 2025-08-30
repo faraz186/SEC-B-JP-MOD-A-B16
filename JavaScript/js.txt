@@ -1,0 +1,17 @@
+JavaScript:
+
+Programming : It is a set of intructions
+
+Categories of Programming:
+1) High Level Programming Language ( JS, Python, Java , PHP, C, C++)
+2) Low Level Programming Language ( Assembly language )
+3) Machine Language ( Binary 0&1 ) A = 1100101
+
+Translators:
+1) Compiler
+2) Interpreter
+3) Assembler
+
+Syntax : The way how you write code
+
+Variable : It reserves spave on memory
