@@ -1,19 +1,19 @@
-
 // alert() js builtin function
 
-// alert(faraz);
+alert(faraz);  // error occur 
 
-// alert("hellomyfriend")
+alert("hellomyfriend")
 
-// document.write("helloworld");
+document.write("helloworld");
 
-// console.log("hello world");
+console.log("hello world");
+
+
+// types of error
 
 // runtime error
 
 // compile time error
-
-
 
 
 // document.write(); js builtin method
@@ -32,24 +32,27 @@
 
 // string ""
 // number 50;
+// undefined
 
-// var names = 'faraz';
 
-// console.log(names);
+
+var names = 'faraz';
+
+console.log(names);
 
 
 // variable declaration
 
-// var number;
+var number;
 
-// console.log(number);
+console.log(number);
 
 
 // variable declaration and initialization
 
-// var number1 = 50;
+var number1 = 50;
 
-// console.log(number1);
+console.log(number1);
 
 
 // variable legal ways
@@ -63,21 +66,21 @@
 
 
 
+var firstName = "Muhammad";
 
+var lastName = "Faraz";
 
-// var firstName = "Muhammad";
+console.log(firstName , lastName);
 
-// var lastName = "Faraz";
-
-// console.log(firstName , lastName);
 
 // js  +  ==> add,concat
 
-// var num1 = "10";
 
-// var num2 = "2";
+var num1 = "10";
 
-// console.log(num1 + num2);
+var num2 = "2";
+
+console.log(num1 + num2);
 
 
 
@@ -86,11 +89,9 @@
 // var first name = "faraz";
 
 
-// var num1 = 10 , num2 = 20;
+var num1 = 10 , num2 = 20;
 
-// console.log(num1 - num2);
-
-
+console.log(num1 - num2);
 
 
 
@@ -99,26 +100,26 @@
 //  decrement -- -1;
 
 
-// var number = 10;
+var number = 10;
 
-// number++;
+number++;
 
-// console.log(number);
-
-
-
-// number =  number + 1;
-
-// var update = number++
-
-// console.log(update);
+console.log(number);
 
 
-// var num = 2;
 
-// var exp = num - (--num + ++num);
+number =  number + 1;
+
+var update = number++
+
+console.log(update);
+
+
+var num = 2;
+
+var exp = num - (--num + ++num);
             
-// console.log(exp);
+console.log(exp);
 
 
 
@@ -144,5 +145,4 @@ var firstName = prompt("Enter your first name");
 var lastName = prompt("Enter your last name");
 
 console.log(firstName + " " + lastName);
-
 
