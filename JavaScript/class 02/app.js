@@ -1,5 +1,5 @@
 // alert() js builtin function
-
+ 
 alert(faraz);  // error occur 
 
 alert("hellomyfriend")
@@ -145,4 +145,5 @@ var firstName = prompt("Enter your first name");
 var lastName = prompt("Enter your last name");
 
 console.log(firstName + " " + lastName);
+
 
