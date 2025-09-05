@@ -1,5 +1,5 @@
 document.write("<h1><u>Hello <br> JS</u></h1>");
-          
+           
 document.write("<ul><li>Apple</li><li>Mango</li></ul>");
 
 // is js a case sensitive
@@ -203,6 +203,7 @@ if (prog_lan === "js") {
 } else {
   console.log("js seekh kar ao");
 }
+
 
 
 
