@@ -1,5 +1,5 @@
 var prog_lan = prompt("Enter programming language");
- 
+  
 if (prog_lan === "js") {
   var exp = +prompt("Enter your experience");
   if (exp >= 2) {
@@ -132,4 +132,5 @@ var cities = ["lahore", "karachi", "multan", "quetta"];
 var copy = cities.slice(0);
 
 console.log(copy);
+
 
