@@ -1,5 +1,5 @@
 var userInput = prompt("Enter a month");
-          
+           
 var inputLen = userInput.length;
 
 var shortform;
@@ -119,6 +119,7 @@ console.log(typeof num.toString());
 var random = Math.random();
 
 console.log(parseFloat(random.toFixed(5)));
+
 
 
 
