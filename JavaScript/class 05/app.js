@@ -1,412 +1,121 @@
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  
-// slice()
+// var userInput = prompt("Enter a month");
 
-var copy = numbers.slice(1, 7);
+// var inputLen = userInput.length;
 
-// splice()
+// var shortform;
 
-numbers.splice(6, 4, "faraz");
-
-
-// unshift
-
-numbers.unshift(51, 1561, 65, 151, 5, 15);
-
-
-// push()
-
-
-numbers.push(11, 12, 13, 14, 15);
-
-
-// pop()
-
-numbers.pop();
-
-
-// shift()
-
-numbers.shift();
-
-
-console.log(copy);
-
-
-
-var country_list = [
-  "Afghanistan",
-  "Albania",
-  "Algeria",
-  "Andorra",
-  "Angola",
-  "Anguilla",
-  "Antigua &amp; Barbuda",
-  "Argentina",
-  "Armenia",
-  "Aruba",
-  "Australia",
-  "Austria",
-  "Azerbaijan",
-  "Bahamas",
-  "Bahrain",
-  "Bangladesh",
-  "Barbados",
-  "Belarus",
-  "Belgium",
-  "Belize",
-  "Benin",
-  "Bermuda",
-  "Bhutan",
-  "Bolivia",
-  "Bosnia &amp; Herzegovina",
-  "Botswana",
-  "Brazil",
-  "British Virgin Islands",
-  "Brunei",
-  "Bulgaria",
-  "Burkina Faso",
-  "Burundi",
-  "Cambodia",
-  "Cameroon",
-  "Cape Verde",
-  "Cayman Islands",
-  "Chad",
-  "Chile",
-  "China",
-  "Colombia",
-  "Congo",
-  "Cook Islands",
-  "Costa Rica",
-  "Cote D Ivoire",
-  "Croatia",
-  "Cruise Ship",
-  "Cuba",
-  "Cyprus",
-  "Czech Republic",
-  "Denmark",
-  "Djibouti",
-  "Dominica",
-  "Dominican Republic",
-  "Ecuador",
-  "Egypt",
-  "El Salvador",
-  "Equatorial Guinea",
-  "Estonia",
-  "Ethiopia",
-  "Falkland Islands",
-  "Faroe Islands",
-  "Fiji",
-  "Finland",
-  "France",
-  "French Polynesia",
-  "French West Indies",
-  "Gabon",
-  "Gambia",
-  "Georgia",
-  "Germany",
-  "Ghana",
-  "Gibraltar",
-  "Greece",
-  "Greenland",
-  "Grenada",
-  "Guam",
-  "Guatemala",
-  "Guernsey",
-  "Guinea",
-  "Guinea Bissau",
-  "Guyana",
-  "Haiti",
-  "Honduras",
-  "Hong Kong",
-  "Hungary",
-  "Iceland",
-  "India",
-  "Indonesia",
-  "Iran",
-  "Iraq",
-  "Ireland",
-  "Isle of Man",
-  "Israel",
-  "Italy",
-  "Jamaica",
-  "Japan",
-  "Jersey",
-  "Jordan",
-  "Kazakhstan",
-  "Kenya",
-  "Kuwait",
-  "Kyrgyz Republic",
-  "Laos",
-  "Latvia",
-  "Lebanon",
-  "Lesotho",
-  "Liberia",
-  "Libya",
-  "Liechtenstein",
-  "Lithuania",
-  "Luxembourg",
-  "Macau",
-  "Macedonia",
-  "Madagascar",
-  "Malawi",
-  "Malaysia",
-  "Maldives",
-  "Mali",
-  "Malta",
-  "Mauritania",
-  "Mauritius",
-  "Mexico",
-  "Moldova",
-  "Monaco",
-  "Mongolia",
-  "Montenegro",
-  "Montserrat",
-  "Morocco",
-  "Mozambique",
-  "Namibia",
-  "Nepal",
-  "Netherlands",
-  "Netherlands Antilles",
-  "New Caledonia",
-  "New Zealand",
-  "Nicaragua",
-  "Niger",
-  "Nigeria",
-  "Norway",
-  "Oman",
-  "Pakistan",
-  "Palestine",
-  "Panama",
-  "Papua New Guinea",
-  "Paraguay",
-  "Peru",
-  "Philippines",
-  "Poland",
-  "Portugal",
-  "Puerto Rico",
-  "Qatar",
-  "Reunion",
-  "Romania",
-  "Russia",
-  "Rwanda",
-  "Saint Pierre &amp; Miquelon",
-  "Samoa",
-  "San Marino",
-  "Satellite",
-  "Saudi Arabia",
-  "Senegal",
-  "Serbia",
-  "Seychelles",
-  "Sierra Leone",
-  "Singapore",
-  "Slovakia",
-  "Slovenia",
-  "South Africa",
-  "South Korea",
-  "Spain",
-  "Sri Lanka",
-  "St Kitts &amp; Nevis",
-  "St Lucia",
-  "St Vincent",
-  "St. Lucia",
-  "Sudan",
-  "Suriname",
-  "Swaziland",
-  "Sweden",
-  "Switzerland",
-  "Syria",
-  "Taiwan",
-  "Tajikistan",
-  "Tanzania",
-  "Thailand",
-  "Timor L'Este",
-  "Togo",
-  "Tonga",
-  "Trinidad &amp; Tobago",
-  "Tunisia",
-  "Turkey",
-  "Turkmenistan",
-  "Turks &amp; Caicos",
-  "Uganda",
-  "Ukraine",
-  "United Arab Emirates",
-  "United Kingdom",
-  "Uruguay",
-  "Uzbekistan",
-  "Venezuela",
-  "Vietnam",
-  "Virgin Islands (US)",
-  "Yemen",
-  "Zambia",
-  "Zimbabwe",
-];
-
-console.log(country_list.length);
-
-
-
-// what is loops?
-
-// it is an iteration of a process which is used to
-
-// create statement multiple times.
-
-
-
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-// console.log("hello world");
-
-// types of loop
-
-// for loop
-// while loop
-// do-while loop
-
-// for loop
-
-// for(initialization;condition;increment/decrement){
-
+// if (inputLen >= 3) {
+//   shortform = userInput.slice(0, 3);
 // }
 
-for(var i = 1; i <= 10; i++) {
-  console.log("hello world");
+// console.log(shortform);
+
+// var str = prompt("Enter a string");
+
+// var len = str.length;
+
+// for (var i = 0; i < len; i++) {
+//   if (str.slice(i, i + 1) === "!" && str.slice(i, i + 2) === "  ") {
+//     alert("! and double space found..");
+//   }
+// }
+
+// var str = "hello my name is Muhammad faraz";
+
+// var findIndex = str.indexOf("faraz");
+
+// var replaceText = "farooq";
+
+// var remainText = str.slice(0, findIndex);
+
+// console.log(remainText + replaceText);
+
+// var str =
+//   "The New Yorker magazine doesn't allow the phrase World War II. They say it should be";
+
+// var findIndex = str.indexOf("World War II");
+
+// var firstText = str.slice(0, findIndex);
+
+// var replaceText = "The Second World War";
+
+// var remainText = str.slice(61);
+
+// console.log(firstText + replaceText + remainText);
+
+// var str =
+//   "The history of science spans the majority of the historical record, with the earliest identifiable predecessors to modern science dating to the Bronze Age in Egypt and Mesopotamia (c.30001200 BCE).";
+
+// var findIndex = str.indexOf("science");
+
+// var firstText = str.slice(0, findIndex);
+
+// var remainText = str.slice(findIndex + 7);
+
+// var replaceText = "computer";
+
+// console.log(firstText + replaceText + remainText);
+
+// lastIndexOf()
+
+// var str = "to be or not to be";
+
+// console.log(str.lastIndexOf("be"));
+
+// var str =
+//   "The New Yorker magazine doesn't allow the phrase World War II. They say it should be World War II";
+
+// console.log(str.replace("World War II", "The Second world war"));
+
+// console.log(str.replaceAll("World War II", "The Second world war"));
+
+// var str = "hurrah we won the match";
+
+// console.log(str.slice(0, 3));
+
+// console.log(str.charAt(7));
+
+// var number = 20.8;
+
+// console.log("Floor", Math.floor(number));
+
+// console.log("Ceil", Math.ceil(number));
+
+// console.log("Round", Math.round(number));
+
+// program head tail
+
+var headUser = prompt("Enter head username");
+
+var tailUser = prompt("Enter tail username");
+
+var toss = Math.round(Math.random());
+
+if (toss === 0) {
+  console.log(headUser, "win the game");
+} else {
+  console.log(tailUser, "win the game");
 }
 
-for (var i = 1; i <= 10; i++) {
-  document.write(i, "<br>");
-}
+// dice program
 
-for (var i = 10; i >= 1; i--) {
-  document.write(i, "<br>");
-}
+// var random = Math.ceil(Math.random() * 6);
 
+// console.log(random);
 
+// create program of generating random password
 
-var tableNumber = +prompt("Enter a number");
+// var number = "100";
 
-var tableRange = +prompt("Enter range");
+// var convert = parseFloat(number);
 
-for (var i = 1; i <= tableRange; i++) {
-  document.write(tableNumber, " x ", i, "=", tableNumber * i, "<br>");
-}
+// console.log(typeof convert);
 
 
-// array with loops
+// var num = 50;
 
+// console.log(typeof num.toString());
 
-var citiesArr = [
-  "karachi",
-  "lahore",
-  "islamabad",
-  "quetta",
-  "multan",
-  "peshawar",
-];
+// var random = Math.random();
 
-for (var i = 0; i < citiesArr.length; i++) {
-  console.log(citiesArr[i]);
-}
-
-
-
-// flags
-
-
-var city = prompt("Enter your city name");
-
-var matchFound = "no";
-
-var citiesArr = [
-  "karachi",
-  "lahore",
-  "islamabad",
-  "quetta",
-  "multan",
-  "peshawar",
-];
-
-for (var i = 0; i < citiesArr.length; i++) {
-  if (city === citiesArr[i]) {
-    matchFound = "yes";
-    console.log("city found");
-  }
-}
-
-if (matchFound === "no") {
-  console.log("city not found");
-}
-
-
-
-var name = "Muhammad Faraz";
-
-console.log(name[0]);
-
-console.log(name.slice(9, 14));     // output: faraz 
-
-console.log(name.slice(0, 8));      // output: Muhammad
-
-
-
-var cityName = prompt("Enter your city name").toUpperCase();
-
-var cityName = prompt("Enter your city name").toLowerCase();
-
-console.log(cityName);
-
-
-
-
-
-var city = prompt("Enter your city name");
-
-var firstChar = city.slice(0, 1).toUpperCase();
-
-var remainChars = city.slice(1).toLowerCase();
-
-var combineInput = firstChar + remainChars;
-
-var matchFound = "no";
-
-var citiesArr = [
-  "Karachi",
-  "Lahore",
-  "Islamabad",
-  "Quetta",
-  "Multan",
-  "Peshawar",
-];
-
-for (var i = 0; i < citiesArr.length; i++) {
-  if (combineInput === citiesArr[i]) {
-    matchFound = "yes";
-    console.log("city found");
-  }
-}
-
-if (matchFound === "no") {
-  console.log("city not found");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(parseFloat(random.toFixed(5)));
