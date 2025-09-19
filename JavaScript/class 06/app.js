@@ -1,5 +1,5 @@
 //  password generator program
-
+ 
 var randomValues = 
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
 
@@ -77,5 +77,6 @@ console.log(month);
 console.log("ramadan milliseconds ", RamadanMilliseconds);
 
 console.log("current milliseconds ", currentMilliseconds);
+
 
 
