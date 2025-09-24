@@ -5,7 +5,7 @@ function faraz() {
 faraz(); // function call
 
 
-function sum() {
+function sum() { 
   var num1 = 10;
   var num2 = 20;
 
@@ -205,6 +205,7 @@ function greet() {
     icon: "success",
   });
 }
+
 
 
 
