@@ -1,168 +1,191 @@
-// function faraz() {
-//   console.log("Hello world");
-// }
+function faraz() {
+  console.log("Hello world");
+}
 
-// faraz(); // function call
+faraz(); // function call
 
-// function sum() {
-//   var num1 = 10;
-//   var num2 = 20;
 
-//   console.log(num1 + num2);
-// }
+function sum() {
+  var num1 = 10;
+  var num2 = 20;
 
-// sum();
+  console.log(num1 + num2);
+}
 
-// function abc() {
-//   console.log("function call...");
-// }
+sum();
 
-// for (var i = 1; i <= 5; i++) {
-//   abc();
-// }
 
-// function sum(a, b, c) {
-//   // parameter
+function abc() {
+  console.log("function call...");
+}
 
-//   console.log(a + b + c);
-// }
+for (var i = 1; i <= 5; i++) {
+  abc();
+}
 
-// sum(10, 40); // argument
+function sum(a, b, c) {
+  // parameter
 
-// function greet(message) {
-//   alert(message);
-// }
+  console.log(a + b + c);
+}
 
-// greet("Good evening");
+sum(10, 40); // argument
 
-// function bio(name) {
-//   var exp = "hello my name is ",
-//     name;
-//   return exp;
-// }
 
-// var getVal = bio("faraz");
 
-// console.log(getVal);
+function greet(message) {
+  alert(message);
+}
 
-// var arr = [1, 2, 3, 4, 5];
+greet("Good evening");
 
-// var copy = arr.slice(1, 4);
 
-// console.log(copy);
+function bio(name) {
+  var exp = "hello my name is ",
+    name;
+  return exp;
+}
 
-// function sum(num1, num2) {
-//   var add = num1 + num2;
-//   return add;
-// }
+var getVal = bio("faraz");
 
-// var getVAL = sum(2, 10);
+console.log(getVal);
 
-// console.log(getVAL);
 
-// var name; // global variable
 
-// function greet() {
-//   name = "faraz";
-//   console.log(name);
-// }
+var arr = [1, 2, 3, 4, 5];
 
-// greet();
+var copy = arr.slice(1, 4);
 
-// function greet() {
-//   var Fullname = "faraz";
-//   return Fullname;
-// }
+console.log(copy);
 
-// var getVal = greet();
 
-// console.log(getVal);
+
+function sum(num1, num2) {
+  var add = num1 + num2;
+  return add;
+}
+
+var getVAL = sum(2, 10);
+
+console.log(getVAL);
+
+
+
+var name; // global variable
+
+function greet() {
+  name = "faraz";
+  console.log(name);
+}
+
+greet();
+
+
+
+function greet() {
+  var Fullname = "faraz";
+  return Fullname;
+}
+
+var getVal = greet();
+
+console.log(getVal);
+
+
 
 // for loop
 
-// for (var i = 1; i <= 2; i++) {
-//   console.log(i);
-// }
+for (var i = 1; i <= 2; i++) {
+  console.log(i);
+}
 
 // while loop
 
-// var i = 2;
+var i = 2;
 
-// while (i <= 1) {
-//   console.log(i);
-//   i++;
-// }
+while (i <= 1) {
+  console.log(i);
+  i++;
+}
 
 // do-while loop
 
-// var i = 2;
+var i = 2;
 
-// do {
-//   console.log(i);
-//   i++;
-// } while (i < 1);
+do {
+  console.log(i);
+  i++;
+} while (i < 1);
 
-// function multiplication_table(table, range) {
 
-//     // for loop
 
-//     for (var i = 1; i <= range; i++) {
-//       document.write(table, "x", i, "=", tab
-// le * i, "<br>");
-//     }
+function multiplication_table(table, range) {
+
+    // for loop
+
+    for (var i = 1; i <= range; i++) {
+      document.write(table, "x", i, "=", tab
+le * i, "<br>");
+    }
 
 //     // do-while loop
 
-//   var i = 1;
+  var i = 1;
 
-//   do {
-//     document.write(table, "x", i, "=", table * i, "<br>");
-//     i++;
-//   } while (i <= range);
+  do {
+    document.write(table, "x", i, "=", table * i, "<br>");
+    i++;
+  } while (i <= range);
 
 //     // while loop
 
-//     var i = 1;
+    var i = 1;
 
-//     while (i <= range) {
-//       document.write(table, "x", i, "=", table * i, "<br>");
-//       i++;
-//     }
-// }
+    while (i <= range) {
+      document.write(table, "x", i, "=", table * i, "<br>");
+      i++;
+    }
+}
 
-// multiplication_table(
-//     +prompt("Enter a number"),
-//      +prompt("Enter a range"));
+multiplication_table(
+    +prompt("Enter a number"),
+     +prompt("Enter a range"));
+
+
+
+// if statement
+
+
+var city = prompt("Enter your city");
+
+if (city === "karachi") {
+  console.log("allow");
+} else {
+  console.log(" not allow");
+}
+
+
 
 // switch statement
 
-// var city = prompt("Enter your city");
+var city = prompt("Enter your city");
 
-// if (city === "karachi") {
-//   console.log("allow");
-// } else {
-//   console.log(" not allow");
-// }
+switch (city) {
+  case "karachi":
+    alert("allow");
+    break;
+  case "lahore":
+    alert("allow");
+    break;
 
-// switch statement
+  case "multan":
+    alert("allow");
+    break;
 
-// var city = prompt("Enter your city");
+  default:
+    alert("not allow");
+}
 
-// switch (city) {
-//   case "karachi":
-//     alert("allow");
-//     break;
-//   case "lahore":
-//     alert("allow");
-//     break;
-
-//   case "multan":
-//     alert("allow");
-//     break;
-
-//   default:
-//     alert("not allow");
-// }
 
 /*
 var a  = "faraz"
@@ -173,6 +196,7 @@ console.log(a);
 
 // function(){
 // }
+
 
 function greet() {
   Swal.fire({
