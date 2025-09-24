@@ -13,7 +13,7 @@ function sum() {
 }
 
 sum();
-
+ 
 
 function abc() {
   console.log("function call...");
@@ -205,6 +205,7 @@ function greet() {
     icon: "success",
   });
 }
+
 
 
 
