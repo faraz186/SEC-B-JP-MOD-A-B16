@@ -1,5 +1,5 @@
 function greet() {
-  Swal.fire({
+  Swal.fire({ 
     text: "welcome to our website!! Login here...!",
     icon: "success",
   });
@@ -57,3 +57,4 @@ console.log(anchorElement.innerHTML);
 console.log(h1Element.innerText);
 console.log(pElement.innerText);
 console.log(anchorElement.innerText);
+
