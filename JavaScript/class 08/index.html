@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="greet()">Click me</button>
+
+    <br />
+    <br />
+
+    <a onclick="greet()" href="#">pop up</a>
+
+    <img
+      onmouseover="src='https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D'"
+      onmouseout="src='https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D'"
+      width="200"
+      src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+      alt=""
+    />
+
+    <input onfocus="changingStyle(this)" type="text" />
+
+
+    <input id="email" type="email" placeholder="Enter email" />
+    <br /><br />
+    <input id="password" type="password" placeholder="Enter password" />
+    <br /><br />
+
+    <button onclick="submit()">Submit</button>
+
+    <input id="input" type="text" />
+
+    <button onclick="set()">Set Value</button>
+
+
+
+    <h1 id="heading">Hello world</h1>
+
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+
+    <a id="link" href="">Link</a>
+
+
+
+    <script src="app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
