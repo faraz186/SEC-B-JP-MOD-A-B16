@@ -1,5 +1,5 @@
 function submit() {
-  var input = document.getElementById("inp");
+  var input = document.getElementById("inp"); 
 
   console.log(input.value);
 }
@@ -103,3 +103,4 @@ function greet() {
 }
 
 setTimeout(greet, 3000);
+
