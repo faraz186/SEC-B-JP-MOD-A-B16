@@ -1,5 +1,5 @@
 var heading = document.getElementById("heading");
- 
+  
 var heading = document.childNodes[0].childNodes[1];
 
 console.log(heading.nodeType);
@@ -79,4 +79,5 @@ var divElement = document.getElementById("container");
 divElement.appendChild(pElement);
 
 console.log(pElement);
+
 
