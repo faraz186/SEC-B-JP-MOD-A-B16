@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+  </head>
+  <body>
+    <!-- 1 Input for user input 
+        Add todo button for adding todo in list
+        delete All to delete all todos
+        unordered list  
+    -->
+    <h1 style="text-align: center">Todo Application</h1>
+    <hr />
+    <div class="container" style="text-align: center">
+      <input placeholder="Enter Todo..." id="todoInput" type="text" />
+      <button onclick="addTodo()">Add Todo</button>
+      <button onclick="deleteAll()">Delete All</button>
+      <hr />
+      <br /><br />
+
+      <ul id="list">
+        
+      </ul>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
