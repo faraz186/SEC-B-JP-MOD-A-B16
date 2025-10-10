@@ -1,5 +1,5 @@
 var link = document.getElementById("anchor");
-           
+            
 console.log(link.attributes[1]);
 
 // array
@@ -141,6 +141,7 @@ console.log(obj2);
 // bookAuthor
 // bookPrice
 // bookQuantity
+
 
 
 
