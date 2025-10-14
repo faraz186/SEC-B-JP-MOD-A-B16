@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch Application</title>
+    <style>
+      body {
+        background-color: lightseagreen;
+        text-align: center;
+      }
+
+      h1 {
+        display: inline-block;
+        width: 50px;
+        background-color: black;
+        color: white;
+        margin: 20px 10px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: center; font-size: 45px">Stop Watch Application</h2>
+
+    <div>
+      <h1 id="hour">0</h1>
+      <h1 id="min">0</h1>
+      <h1 id="sec">0</h1>
+      <h1 id="msec">0</h1>
+    </div>
+
+    <div>
+      <button id="btn" onclick="start()">Start</button>
+      <button onclick="stop()">Stop</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
