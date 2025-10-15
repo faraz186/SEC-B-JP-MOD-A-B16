@@ -1,5 +1,5 @@
 // objects;
- 
+  
 var obj = {
   id: 1,
   name: "faraz",
@@ -74,4 +74,5 @@ var arrayOfObject = [
 ];
 
 console.log(arrayOfObject);
+
 
