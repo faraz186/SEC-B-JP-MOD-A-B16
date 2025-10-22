@@ -1,6 +1,6 @@
 var firebaseConfig = {
   apiKey: "AIzaSyArYdnLGjvWvqStxPm9rrBoAgSs874wVHE",         
-  authDomain: "stopwatch786-19657.firebaseapp.com",
+  authDomain: "stopwatch786-19657.firebaseapp.com", 
   databaseURL: "https://stopwatch786-19657-default-rtdb.firebaseio.com", 
   projectId: "stopwatch786-19657",
   storageBucket: "stopwatch786-19657.firebasestorage.app",
@@ -340,6 +340,7 @@ function search() {
   }
   console.log(arr);
 }
+
 
 
 
