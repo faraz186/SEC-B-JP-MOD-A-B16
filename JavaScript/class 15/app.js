@@ -1,5 +1,5 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyArYdnLGjvWvqStxPm9rrBoAgSs874wVHE",        
+  apiKey: "AIzaSyArYdnLGjvWvqStxPm9rrBoAgSs874wVHE",         
   authDomain: "stopwatch786-19657.firebaseapp.com",
   databaseURL: "https://stopwatch786-19657-default-rtdb.firebaseio.com", 
   projectId: "stopwatch786-19657",
@@ -340,6 +340,7 @@ function search() {
   }
   console.log(arr);
 }
+
 
 
 
