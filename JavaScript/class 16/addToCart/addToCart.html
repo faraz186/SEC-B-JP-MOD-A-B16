@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Products</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar layout -->
+
+    <nav class="mb-5 navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <div>
+          <span id="counter">0</span>
+          <i class="fs-3 fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      style="
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 50px;
+      "
+    >
+      <!-- card 1 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://cdn.mos.cms.futurecdn.net/FUi2wwNdyFSwShZZ7LaqWf.jpg"
+          class="h-75 card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Laptop</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a
+            onclick="addProduct('https://cdn.mos.cms.futurecdn.net/FUi2wwNdyFSwShZZ7LaqWf.jpg','Laptop','Some quick example text to build')"
+            href="#"
+            class="btn btn-primary"
+            >Add To Cart</a
+          >
+        </div>
+      </div>
+
+      <!-- card 2 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://image.made-in-china.com/2f0j00TBwlKzJrEVfC/Xs16-PRO-Android-Mobile-Cellphone3-Inch-2000mAh-4-128GB-4G-LTE-Mini-Smartphone.webp"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">iphone 15 Pro</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a
+            onclick="addProduct('https://image.made-in-china.com/2f0j00TBwlKzJrEVfC/Xs16-PRO-Android-Mobile-Cellphone3-Inch-2000mAh-4-128GB-4G-LTE-Mini-Smartphone.webp','iphone 15 Pro','Some quick example text to build')"
+            href="#"
+            class="btn btn-primary"
+            >Add To Cart</a
+          >
+        </div>
+      </div>
+
+      <!-- card 3 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://hottu.pk/cdn/shop/files/bh03-1.png?v=1742815054"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Headphone</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a
+            onclick="addProduct('https://hottu.pk/cdn/shop/files/bh03-1.png?v=1742815054','Headphone','Some quick example text to build')"
+            href="#"
+            class="btn btn-primary"
+            >Add To Cart</a
+          >
+        </div>
+      </div>
+
+      <!-- card 4 layout -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEqBCASYLGQ376XAvCKncheHkU0F6co1I7vQ&s"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Mic</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a
+            onclick="addProduct('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEqBCASYLGQ376XAvCKncheHkU0F6co1I7vQ&s','Mic','Some quick example text to build')"
+            href="#"
+            class="btn btn-primary"
+            >Add To Cart</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <br /><br /><br /><br /><br />
+
+    <div class="p-2 container-fluid bg-secondary">
+      <h1>Selected Products</h1>
+    </div>
+
+    <div class="container">
+      <table class="table" id="display-data"></table>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <script src="addToCart.js"></script>
+  </body>
+</html>
