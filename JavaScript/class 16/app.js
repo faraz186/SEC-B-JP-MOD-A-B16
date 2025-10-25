@@ -12,27 +12,30 @@ localStorage.setItem("age", 25);
 
 localStorage.setItem("courses", ["AI", "blockchain", "ioT"]);
 
-// var obj = {
-//   id: 1,
-//   name: "hamza",
-//   city: "karachi",
-// };
+var obj = {
+  id: 1,
+  name: "hamza",
+  city: "karachi",
+};
 
-// localStorage.setItem("biodata", JSON.stringify(obj));
+localStorage.setItem("biodata", JSON.stringify(obj));
+
 
 // get data from local storage
 
-// var getData = localStorage.getItem("email");
 
-// var getData1 = localStorage.getItem("biodata");
+var getData = localStorage.getItem("email");
 
-// var getData2 = localStorage.getItem("city");
+var getData1 = localStorage.getItem("biodata");
 
-// console.log(getData);
+var getData2 = localStorage.getItem("city");
 
-// console.log(JSON.parse(getData1));
+console.log(getData);
 
-// console.log(getData2);
+console.log(JSON.parse(getData1));
+
+console.log(getData2);
+
 
 // data remove from local storage
 
