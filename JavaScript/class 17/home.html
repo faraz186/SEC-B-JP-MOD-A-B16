@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  </head>
+  
+  <body>
+    <h1>Home Page</h1>
+
+    <h3 id="getName"></h3>
+
+    <button onclick="signout()">SignOut</button>
+
+    <h1 style="text-align: center">Todo Application</h1>
+    <hr />
+    <div class="container" style="text-align: center">
+      <input placeholder="Enter Todo..." id="todoInput" type="text" />
+      <button onclick="addTodo()">Add Todo</button>
+      <button onclick="deleteAll()">Delete All</button>
+      <hr />
+      <br /><br />
+
+      <ul id="list"></ul>
+    </div>
+
+    <script src="app2.js"></script>
+  </body>
+</html>
