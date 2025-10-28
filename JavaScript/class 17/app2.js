@@ -7,7 +7,7 @@ var firebaseConfig = {
   messagingSenderId: "433655776517",
   appId: "1:433655776517:web:a9ed924b47640dd878236c",
 };
-
+  
 // Initialize Firebase
 var app = firebase.initializeApp(firebaseConfig);
 
@@ -21,3 +21,4 @@ function signout() {
   localStorage.clear();
   window.location.href = "login.html";
 }
+
