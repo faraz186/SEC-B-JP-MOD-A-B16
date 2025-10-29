@@ -13,7 +13,7 @@ var app = firebase.initializeApp(firebaseConfig);
 
 var getData = localStorage.getItem("username");
 
-var h3Element = document.getElementById("getName");
+var h3Element = document.getElementById("getName");  
 
 h3Element.innerHTML = "Name: " + getData;
 
@@ -21,6 +21,7 @@ function signout() {
   localStorage.clear();
   window.location.href = "login.html";
 }
+
 
 
 
