@@ -3,7 +3,7 @@ var firebaseConfig = {
   authDomain: "add-to-cart-46231.firebaseapp.com",  
   databaseURL: "https://add-to-cart-46231-default-rtdb.firebaseio.com",
   projectId: "add-to-cart-46231",
-  storageBucket: "add-to-cart-46231.firebasestorage.app",
+  storageBucket: "add-to-cart-46231.firebasestorage.app", 
   messagingSenderId: "433655776517",
   appId: "1:433655776517:web:a9ed924b47640dd878236c",
 };
@@ -21,6 +21,7 @@ function signout() {
   localStorage.clear();
   window.location.href = "login.html";
 }
+
 
 
 
