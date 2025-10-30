@@ -1,6 +1,6 @@
 var firebaseConfig = {          
   apiKey: "AIzaSyBy6VhxVg31U833ivNWu1nOJQK6aBNnnyc",                   
-  authDomain: "add-to-cart-46231.firebaseapp.com", 
+  authDomain: "add-to-cart-46231.firebaseapp.com",  
   databaseURL: "https://add-to-cart-46231-default-rtdb.firebaseio.com",
   projectId: "add-to-cart-46231",
   storageBucket: "add-to-cart-46231.firebasestorage.app",
@@ -21,6 +21,7 @@ function signout() {
   localStorage.clear();
   window.location.href = "login.html";
 }
+
 
 
 
