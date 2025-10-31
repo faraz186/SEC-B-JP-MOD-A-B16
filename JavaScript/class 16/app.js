@@ -1,5 +1,5 @@
 // local storage
-                      
+                       
 // local storage is a temporary database
 
 //  where data is store for a specific time.
@@ -42,6 +42,7 @@ console.log(getData2);
 localStorage.removeItem("courses");
 
 localStorage.clear();
+
 
 
 
